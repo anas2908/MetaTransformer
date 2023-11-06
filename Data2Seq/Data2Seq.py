@@ -6,6 +6,8 @@ import cv2 as cv
 import torchvision.transforms as transforms
 import clip
 import torchaudio
+import sys
+sys.path.insert(0,"/content/MetaTransformer/Data2Seq")
 import Hyper_Spectrum
 import Text
 import Time_Series
